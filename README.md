@@ -1,0 +1,1 @@
+# vscode-transparent-color-theme
