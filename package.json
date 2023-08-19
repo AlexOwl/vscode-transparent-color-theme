@@ -2,10 +2,11 @@
     "name": "transparent-color-theme",
     "displayName": "Transparent Color Theme",
     "description": "Experience the ultimate coding environment with the Transparent Color theme. Designed exclusively for macOS, this theme brings the stunning vibrancy background blur of macOS to Visual Studio Code. Enjoy a sleek and modern coding experience with translucent backgrounds that seamlessly blend with the rest of your macOS interface.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.81.0"
     },
+    "publisher": "alexowl",
     "author": {
         "name": "Alex Owl",
         "email": "AlexOwl@protonmail.com",
@@ -42,6 +43,7 @@
         ]
     },
     "extensionPack": [
-        "drcika.apc-extension"
+        "drcika.apc-extension",
+        "BrandonKirbyson.vscode-animations"
     ]
 }
