@@ -20,7 +20,7 @@ your macOS interface.
 3. Search for "Transparent Color Theme" and click on the "Install" button
 4. Once the theme is installed, click on the "Reload" button to activate it
 
-## Blur effect
+### Blur effect
 
 To achieve the transparent effect with Visual Studio Code, you can use the
 [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
@@ -33,7 +33,39 @@ following settings to your VS Code settings.json:
     "transparent": true,
     "backgroundColor": "#00000000",
     "vibrancy": "ultra-dark"
-}
+},
+```
+
+## Additional
+
+### Cursor Blinking Effect
+
+```json
+"apc.stylesheet": {
+        ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: #161616 !important",
+},
+"editor.cursorBlinking": "phase",
+"editor.cursorSmoothCaretAnimation": "on",
+```
+
+### Font with ligatures
+You can download FiraCode Font on [this link](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+```json
+"editor.fontFamily": "'FiraCode Nerd Font Mono', 'FiraCode Nerd Font', FiraCode, Menlo, Monaco, 'Courier New', monospace",
+"editor.fontLigatures": true,
+```
+
+### UI Animations
+There is great extension [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations)
+```json
+"animations.Enabled": true,
+"animations.CursorAnimation": true,
+"animations.Command-Palette": "None",
+"animations.CursorAnimationOptions": {
+    "TrailLength": 10
+},
+"animations.Tabs": "Slide",
+"animations.Active": "Indent",
 ```
 
 ## Theme Details
