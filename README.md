@@ -56,7 +56,13 @@ You can download FiraCode Font on [this link](https://github.com/ryanoasis/nerd-
 ```
 
 ### UI Animations
-There is great extension [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations)
+There is great extension [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations). You can use it with [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension), but check VSCode Animations custom injection plugin readme section
+```json
+"apc.imports": [
+    "file:///~/.vscode/extensions/brandonkirbyson.vscode-animations-1.0.14/dist/updateHandler.js"
+],
+```
+Example config:
 ```json
 "animations.Enabled": true,
 "animations.CursorAnimation": true,
@@ -71,12 +77,13 @@ There is great extension [VSCode Animations](https://marketplace.visualstudio.co
 ## Theme Details
 
 - **Name**: Transparent Color Theme
-- **Version**: 1.0.0
+- **Version**: 1.1.0
 - **VS Code Version**: 1.81.0 and above
 - **Keywords**: theme, transparent, macOS, vibrancy, ultra-dark, glass
 - **Categories**: Themes
 - **Extension Pack**:
   [drcika.apc-extension](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
+  [BrandonKirbyson.vscode-animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations)
 
 ## Contributing
 
